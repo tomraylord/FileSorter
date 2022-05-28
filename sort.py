@@ -46,9 +46,9 @@ for file in os.listdir():
 
 # Output result
 if clash == 1:
-    print(f'Finished with {clash} clash: ')
+    print('Finished with 1 clash: ')
 else:
-    print(f'Finished with {clash} clashes: ')
+    print('Finished with ' + clash + 'clashes: ')
 
 # List all clashes
 for cl in clashes:
