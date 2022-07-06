@@ -42,7 +42,7 @@ for file in os.listdir():
         else:
             # Track files that cannot be moved
             clash += 1
-            clashes.append(name + ext)
+            clashes.append(name + "." + ext)
 
 # Output result
 if clash == 1:
